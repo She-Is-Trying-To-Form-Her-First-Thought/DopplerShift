@@ -180,6 +180,9 @@
 *	BUTTONDOWNS
 */
 
+/datum/loadout_item/undersuit/buttondown
+	abstract_type = /datum/loadout_item/undersuit/buttondown
+
 /datum/loadout_item/undersuit/buttondown/slacks
 	name = "Buttondown w/ Slacks"
 	item_path = /obj/item/clothing/under/costume/buttondown/slacks
@@ -196,6 +199,9 @@
 /*
 *	DRESSES
 */
+
+/datum/loadout_item/undersuit/dress
+	abstract_type = /datum/loadout_item/undersuit/dress
 
 /datum/loadout_item/undersuit/dress/giantscarf
 	name = "Giant Scarf"
