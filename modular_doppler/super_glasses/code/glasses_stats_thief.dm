@@ -1,13 +1,11 @@
 /datum/component/glasses_stats_thief
 
-/datum/component/glasses_stats_thief/Initialize(successful_robberies = 1)
+/datum/component/glasses_stats_thief/Initialize()
 	if(!isclothing(parent))
 		return COMPONENT_INCOMPATIBLE
 
 	RegisterSignal(parent, COMSIG_ITEM_INTERACTING_WITH_ATOM, PROC_REF(try_consume))
 	RegisterSignal(parent, COMSIG_ATOM_EXAMINE, PROC_REF(examine))
-
-	src.successful_robberies = successful_robberies
 
 /datum/component/glasses_stats_thief/proc/examine(datum/source, mob/user, list/examine_list)
 	SIGNAL_HANDLER
