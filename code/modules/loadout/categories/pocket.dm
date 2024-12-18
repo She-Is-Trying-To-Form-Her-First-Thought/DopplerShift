@@ -43,7 +43,7 @@
 
 	return ..()
 
-/* /datum/loadout_item/pocket_items/lipstick_black // DOPPLER EDIT REMOVAL
+/datum/loadout_item/pocket_items/lipstick_black
 	name = "Lipstick (Black)"
 	item_path = /obj/item/lipstick/black
 	additional_displayed_text = list("Black")
@@ -78,7 +78,7 @@
 /datum/loadout_item/pocket_items/lipstick_white
 	name = "Lipstick (White)"
 	item_path = /obj/item/lipstick/white
-	additional_displayed_text = list("White") */
+	additional_displayed_text = list("White")
 
 /datum/loadout_item/pocket_items/plush
 	abstract_type = /datum/loadout_item/pocket_items/plush

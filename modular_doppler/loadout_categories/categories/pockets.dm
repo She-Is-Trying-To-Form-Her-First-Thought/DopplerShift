@@ -49,6 +49,38 @@
 			wallet.forceMove(equipper.drop_location())
 
 /*
+*	LIPSTICK
+*/
+
+/datum/loadout_item/pocket_items/lipstick_green
+	name = "Green Lipstick"
+	item_path = /obj/item/lipstick/green
+
+/datum/loadout_item/pocket_items/lipstick_white
+	name = "White Lipstick"
+	item_path = /obj/item/lipstick/white
+
+/datum/loadout_item/pocket_items/lipstick_blue
+	name = "Blue Lipstick"
+	item_path = /obj/item/lipstick/blue
+
+/datum/loadout_item/pocket_items/lipstick_black
+	name = "Black Lipstick"
+	item_path = /obj/item/lipstick/black
+
+/datum/loadout_item/pocket_items/lipstick_jade
+	name = "Jade Lipstick"
+	item_path = /obj/item/lipstick/jade
+
+/datum/loadout_item/pocket_items/lipstick_purple
+	name = "Purple Lipstick"
+	item_path = /obj/item/lipstick/purple
+
+/datum/loadout_item/pocket_items/lipstick_red
+	name = "Red Lipstick"
+	item_path = /obj/item/lipstick
+
+/*
 *	GUM
 */
 
