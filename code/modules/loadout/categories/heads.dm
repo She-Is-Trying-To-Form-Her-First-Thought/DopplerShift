@@ -72,9 +72,9 @@
 	name = "Cap (Yellow)"
 	item_path = /obj/item/clothing/head/soft/yellow
 
-/datum/loadout_item/head/flatcap
+/* /datum/loadout_item/head/flatcap // DOPPLER EDIT REMOVAL
 	name = "Cap (Flat)"
-	item_path = /obj/item/clothing/head/flatcap
+	item_path = /obj/item/clothing/head/flatcap */
 
 /datum/loadout_item/head/beige_fedora
 	name = "Fedora (Beige)"
@@ -124,7 +124,7 @@
 	name ="Ushanka"
 	item_path = /obj/item/clothing/head/costume/ushanka
 
-/datum/loadout_item/head/plague_doctor
+/* /datum/loadout_item/head/plague_doctor // DOPPLER EDIT REMOVAL
 	name = "Cap (Plague Doctor)"
 	item_path = /obj/item/clothing/head/bio_hood/plague
 
@@ -150,7 +150,7 @@
 
 /datum/loadout_item/head/harebell
 	name = "Harebell"
-	item_path = /obj/item/food/grown/harebell
+	item_path = /obj/item/food/grown/harebell */
 
 /datum/loadout_item/head/wig
 	name = "Wig"

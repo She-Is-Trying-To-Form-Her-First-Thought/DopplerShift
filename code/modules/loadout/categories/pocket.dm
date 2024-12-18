@@ -43,7 +43,7 @@
 
 	return ..()
 
-/datum/loadout_item/pocket_items/lipstick_black
+/* /datum/loadout_item/pocket_items/lipstick_black // DOPPLER EDIT REMOVAL
 	name = "Lipstick (Black)"
 	item_path = /obj/item/lipstick/black
 	additional_displayed_text = list("Black")
@@ -78,13 +78,13 @@
 /datum/loadout_item/pocket_items/lipstick_white
 	name = "Lipstick (White)"
 	item_path = /obj/item/lipstick/white
-	additional_displayed_text = list("White")
+	additional_displayed_text = list("White") */
 
 /datum/loadout_item/pocket_items/plush
 	abstract_type = /datum/loadout_item/pocket_items/plush
 	can_be_named = TRUE
 
-/datum/loadout_item/pocket_items/plush/bee
+/* /datum/loadout_item/pocket_items/plush/bee // DOPPLER EDIT REMOVAL
 	name = "Plush (Bee)"
 	item_path = /obj/item/toy/plush/beeplushie
 
@@ -124,7 +124,7 @@
 
 /datum/loadout_item/pocket_items/plush/snake
 	name = "Plush (Snake)"
-	item_path = /obj/item/toy/plush/snakeplushie
+	item_path = /obj/item/toy/plush/snakeplushie */
 
 /datum/loadout_item/pocket_items/card_binder
 	name = "Card Binder"
@@ -146,7 +146,7 @@
 	name = "Dice Bag"
 	item_path = /obj/item/storage/dice
 
-/datum/loadout_item/pocket_items/d1
+/* /datum/loadout_item/pocket_items/d1 // DOPPLER EDIT REMOVAL
 	name = "D1"
 	item_path = /obj/item/dice/d1
 
@@ -192,4 +192,4 @@
 
 /datum/loadout_item/pocket_items/d00
 	name = "D00"
-	item_path = /obj/item/dice/d00
+	item_path = /obj/item/dice/d00 */
