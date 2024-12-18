@@ -65,6 +65,9 @@
 *	FANCYPANTS
 */
 
+/datum/loadout_item/undersuit/pants
+	abstract_type = /datum/loadout_item/undersuit/pants
+
 /datum/loadout_item/undersuit/pants/shorts
 	name = "Shorts"
 	item_path = /obj/item/clothing/under/shorts
@@ -264,11 +267,11 @@
 	name = "Cheongsam (Custom Trim)"
 	item_path = /obj/item/clothing/under/dress/doppler/cheongsam/customtrim
 
-/datum/loadout_item/undersuit/dress/yukata/tg/greyscale
+/datum/loadout_item/undersuit/dress/yukata
 	name = "Custom Yukata"
 	item_path = /obj/item/clothing/under/costume/yukata/greyscale
 
-/datum/loadout_item/undersuit/dress/kimono/greyscale
+/datum/loadout_item/undersuit/dress/kimono
 	name = "Custom Kimono"
 	item_path = /obj/item/clothing/under/costume/kimono/greyscale
 
@@ -288,7 +291,7 @@
 	name = "Colorable Jumpskirt"
 	item_path = /obj/item/clothing/under/color/jumpskirt
 
-/datum/loadout_item/undersuit/jumpsuit/frontier
+/datum/loadout_item/undersuit/frontier
 	name = "Frontier Jumpsuit"
 	item_path = /obj/item/clothing/under/frontier_colonist
 
@@ -314,11 +317,11 @@
 
 // Man in suit gif
 
-/datum/loadout_item/undersuit/bunnysuit
+/datum/loadout_item/undersuit/detective_suit
 	name = "Hard-Worn Suit"
 	item_path = /obj/item/clothing/under/rank/security/detective
 
-/datum/loadout_item/undersuit/bunnysuit
+/datum/loadout_item/undersuit/noir_suit
 	name = "Noir Suit"
 	item_path = /obj/item/clothing/under/rank/security/detective/noir
 
@@ -326,7 +329,7 @@
 	name = "Superstar Cop Uniform"
 	item_path = /obj/item/clothing/under/rank/security/detective/disco
 
-/datum/loadout_item/undersuit/bunnysuit
+/datum/loadout_item/undersuit/aerostatic
 	name = "Aerostatic Suit"
 	item_path = /obj/item/clothing/under/rank/security/detective/kim
 
