@@ -69,7 +69,7 @@
 	name = "Explorer's Webbing"
 	item_path = /obj/item/storage/belt/mining
 
-/datum/loadout_item/belts/mining
+/datum/loadout_item/belts/mining_alt
 	name = "Explorer's Webbing (Alt)"
 	item_path = /obj/item/storage/belt/mining/alt
 

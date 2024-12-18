@@ -297,3 +297,68 @@
 /datum/loadout_item/suit/mantella
 	name = "Mothic Mantella"
 	item_path = /obj/item/clothing/suit/mothcoat/winter
+
+// WINTER COATS
+
+/datum/loadout_item/suit/coat_med
+	name = "Medical Winter Coat"
+	item_path = /obj/item/clothing/suit/hooded/wintercoat/medical
+
+/datum/loadout_item/suit/coat_paramedic
+	name = "Paramedic Winter Coat"
+	item_path = /obj/item/clothing/suit/hooded/wintercoat/medical/paramedic
+
+/datum/loadout_item/suit/coat_robotics
+	name = "Robotics Winter Coat"
+	item_path = /obj/item/clothing/suit/hooded/wintercoat/science/robotics
+
+/datum/loadout_item/suit/coat_sci
+	name = "Science Winter Coat"
+	item_path = /obj/item/clothing/suit/hooded/wintercoat/science
+
+/datum/loadout_item/suit/coat_eng
+	name = "Engineering Winter Coat"
+	item_path = /obj/item/clothing/suit/hooded/wintercoat/engineering
+
+/datum/loadout_item/suit/coat_atmos
+	name = "Atmospherics Winter Coat"
+	item_path = /obj/item/clothing/suit/hooded/wintercoat/engineering/atmos
+
+/datum/loadout_item/suit/coat_hydro
+	name = "Hydroponics Winter Coat"
+	item_path = /obj/item/clothing/suit/hooded/wintercoat/hydro
+
+/datum/loadout_item/suit/coat_cargo
+	name = "Cargo Winter Coat"
+	item_path = /obj/item/clothing/suit/hooded/wintercoat/cargo
+
+/datum/loadout_item/suit/coat_miner
+	name = "Mining Winter Coat"
+	item_path = /obj/item/clothing/suit/hooded/wintercoat/miner
+
+// JACKETS
+
+/datum/loadout_item/suit/qm_jacket
+	name = "Quartermaster's Overcoat"
+	item_path = /obj/item/clothing/suit/jacket/quartermaster
+	restricted_roles = list(JOB_QUARTERMASTER)
+
+/datum/loadout_item/suit/departmental_jacket
+	name = "Work Jacket"
+	item_path = /obj/item/clothing/suit/jacket/doppler/departmental_jacket
+
+/datum/loadout_item/suit/engi_dep_jacket
+	name = "Engineering Department Jacket"
+	item_path = /obj/item/clothing/suit/jacket/doppler/departmental_jacket/engi
+
+/datum/loadout_item/suit/med_dep_jacket
+	name = "Medical Department Jacket"
+	item_path = /obj/item/clothing/suit/jacket/doppler/departmental_jacket/med
+
+/datum/loadout_item/suit/cargo_dep_jacket
+	name = "Cargo Department Jacket"
+	item_path = /obj/item/clothing/suit/jacket/doppler/departmental_jacket/supply
+
+/datum/loadout_item/suit/sec_dep_jacket_red
+	name = "Security Department Jacket"
+	item_path = /obj/item/clothing/suit/jacket/doppler/departmental_jacket/sec/red

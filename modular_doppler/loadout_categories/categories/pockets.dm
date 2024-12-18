@@ -84,15 +84,15 @@
 	name = "Survival Knife"
 	item_path = /obj/item/knife/combat/survival
 
-/datum/loadout_item/pocket_items/london_two
+/datum/loadout_item/pocket_items/injector_case
 	name = "Autoinjector Case"
 	item_path = /obj/item/storage/epic_loot_medpen_case
 
-/datum/loadout_item/pocket_items/london_two
+/datum/loadout_item/pocket_items/docs_case
 	name = "Documents Case"
 	item_path = /obj/item/storage/epic_loot_docs_case
 
-/datum/loadout_item/pocket_items/london_two
+/datum/loadout_item/pocket_items/org_case
 	name = "Organizational Pouch"
 	item_path = /obj/item/storage/epic_loot_org_pouch
 
