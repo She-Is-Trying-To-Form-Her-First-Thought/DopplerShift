@@ -17,3 +17,7 @@
 /datum/loadout_item/glasses/fake_blindfold
 	name = "Fake Blindfold"
 	item_path = /obj/item/clothing/glasses/trickblindfold
+
+/datum/loadout_item/glasses/techno_visor
+	name = "Techno-Visor"
+	item_path = /obj/item/clothing/glasses/techno_visor

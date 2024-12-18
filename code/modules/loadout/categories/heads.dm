@@ -126,7 +126,7 @@
 
 /* /datum/loadout_item/head/plague_doctor // DOPPLER EDIT REMOVAL
 	name = "Cap (Plague Doctor)"
-	item_path = /obj/item/clothing/head/bio_hood/plague
+	item_path = /obj/item/clothing/head/bio_hood/plague */
 
 /datum/loadout_item/head/rose
 	name = "Rose"
@@ -150,7 +150,7 @@
 
 /datum/loadout_item/head/harebell
 	name = "Harebell"
-	item_path = /obj/item/food/grown/harebell */
+	item_path = /obj/item/food/grown/harebell
 
 /datum/loadout_item/head/wig
 	name = "Wig"
