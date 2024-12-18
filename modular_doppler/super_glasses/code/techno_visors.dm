@@ -31,6 +31,10 @@
 			RESKIN_ICON_STATE = "vintage",
 			RESKIN_WORN_ICON_STATE = "vintage",
 		),
+		"Violent Red" = list(
+			RESKIN_ICON_STATE = "violent",
+			RESKIN_WORN_ICON_STATE = "violent",
+		),
 	)
 
 /obj/item/clothing/glasses/techno_visor/Initialize(mapload)
