@@ -108,6 +108,14 @@
 	name = "Rag"
 	item_path = /obj/item/reagent_containers/cup/rag
 
+/datum/loadout_item/pocket_items/mod_painter
+	name = "MOD Paint Kit"
+	item_path = /obj/item/mod/paint
+
+/datum/loadout_item/pocket_items/super_disk
+	name = "Bootleg Computer Programs Disk"
+	item_path = /obj/item/computer_disk/all_of_them
+
 /datum/loadout_item/pocket_items/london
 	name = "Switchblade"
 	item_path = /obj/item/switchblade
