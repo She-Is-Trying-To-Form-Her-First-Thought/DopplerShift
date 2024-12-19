@@ -40,3 +40,10 @@
 /obj/item/clothing/glasses/techno_visor/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/glasses_stats_thief)
+
+/obj/item/clothing/glasses/techno_visor/change_glass_color(new_color_type)
+	if(glass_colour_type)
+		RemoveElement(/datum/element/wearable_client_colour, glass_colour_type, ITEM_SLOT_EYES, forced = forced_glass_color, comsig_toggle = COMSIG_CLICK_CTRL)
+	glass_colour_type = new_color_type
+	if(glass_colour_type)
+		AddElement(/datum/element/wearable_client_colour, glass_colour_type, ITEM_SLOT_EYES, forced = forced_glass_color, comsig_toggle = COMSIG_CLICK_CTRL)
