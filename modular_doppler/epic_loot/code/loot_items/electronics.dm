@@ -143,8 +143,6 @@
 	)
 
 /obj/item/computer_disk/all_of_them
-	desc = "Removable disk used to store data. This one has a strange slogan printed on the label: \
-		'We steam, Steamapps, COMMON'. Whatever that might mean."
 	max_capacity = 128
 	starting_programs = list(
 		/datum/computer_file/program/arcade/eazy, // 6 GQ
@@ -167,3 +165,23 @@
 		/datum/computer_file/program/ai_restorer, // 12 GQ
 		/datum/computer_file/program/ntnetmonitor, // 12 GQ
 	)
+	/// List of random things that will be mentioned in the desc
+	var/list/hackerman_bits = list(
+		"Some Tunes",
+		"钱",
+		"Software Testing Prototype",
+		"CLASSIFIED",
+		"Free Download",
+		"!! EVIL VIRUS !!",
+		"📸",
+		">;3",
+		"@AOL.com",
+		"$$$",
+		"Comedy",
+		"For Whom The Bell Tolls",
+	)
+
+/obj/item/computer_disk/all_of_them/Initialize(mapload)
+	. = ..()
+	desc = "Removable disk used to store data, with a paper label adhered to the side. \
+		This one has '[pick(hackerman_bits)]' ominously written on it."
