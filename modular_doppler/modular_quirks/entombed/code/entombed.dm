@@ -25,7 +25,7 @@
 	var/list/modular_icon_files = list(
 		"colonist" = 'modular_doppler/kahraman_equipment/icons/modsuits/mod.dmi',
 		"moonlight" = 'modular_doppler/special_modsuits/icons/mod.dmi',
-		"orbiter" = 'modular_doppler/special_modsuits/icons/mod.dmi,'
+		"orbiter" = 'modular_doppler/special_modsuits/icons/mod.dmi',
 	)
 	/// Alternate icon files for each modular worn skin
 	var/list/modular_worn_files = list(
@@ -115,10 +115,13 @@
 	for(var/obj/item/part as anything in modsuit.get_parts())
 		part.name = "[modsuit.theme.name] [initial(part.name)]"
 		part.desc = "[initial(part.desc)] [modsuit.theme.desc]"
-		if(modsuit.skin in modular_icon_files)
-			part.icon = modular_icon_files[modsuit.skin]
-		if(modsuit.skin in modular_worn_files)
-			part.worn_icon = modular_worn_files[modsuit.skin]
+		for(var/potential_skin as anything in modular_icon_files)
+			if(modsuit.skin == potential_skin)
+				part.icon = modular_icon_files[modsuit.skin]
+				bodyshape_icon_files[BODYSHAPE_HUMANOID_T] = modular_icon_files[modsuit.skin]
+				part.worn_icon = modular_worn_files[modsuit.skin]
+				modsuit.icon = modular_icon_files[modsuit.skin]
+				modsuit.worn_icon = modular_worn_files[modsuit.skin]
 	install_racial_features()
 
 	//transfer as many items across from our dropped backslot as we can. do this last incase something breaks
