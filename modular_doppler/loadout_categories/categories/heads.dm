@@ -94,10 +94,6 @@
 	name = "Slim Beret (Light)"
 	item_path = /obj/item/clothing/head/beret/doppler_command/light
 
-/datum/loadout_item/head/hardhat_black
-	name = "Heavy-Duty Hardhat"
-	item_path = /obj/item/clothing/head/utility/hardhat/welding/doppler_command
-
 /datum/loadout_item/head/breach_helmet
 	name = "Breach Helmet"
 	item_path = /obj/item/clothing/head/utility/hardhat/welding/doppler_dc

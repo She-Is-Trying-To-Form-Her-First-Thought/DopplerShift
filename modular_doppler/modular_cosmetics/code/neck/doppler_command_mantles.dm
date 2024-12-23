@@ -3,7 +3,7 @@
 	desc = "A command mantle made of fire and acid proof materials to protect the wearer."
 	icon = 'modular_doppler/modular_cosmetics/icons/obj/neck/doppler_mantles.dmi'
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/mob/neck/doppler_mantles.dmi'
-	icon_state = ""
+	icon_state = "dark"
 	inhand_icon_state = null
 	w_class = WEIGHT_CLASS_SMALL
 	body_parts_covered = CHEST|ARMS
