@@ -196,6 +196,7 @@
 		"Mining",
 		"Prototype",
 		"Security",
+		"Elite",
 		"Colonist",
 		"Orbiter",
 		"Moonlight",
