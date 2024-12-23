@@ -70,7 +70,7 @@
 	desc = "A slim beret denoting the wearer as the command for some aspect of the station."
 	icon = 'modular_doppler/modular_cosmetics/icons/obj/head/doppler_command_hats.dmi'
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/mob/head/doppler_command_hats.dmi'
-	icon_state = "dark""
+	icon_state = "dark"
 	icon_preview = null
 	dog_fashion = null
 	greyscale_config = null
