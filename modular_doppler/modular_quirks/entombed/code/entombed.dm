@@ -118,7 +118,8 @@
 		for(var/potential_skin as anything in modular_icon_files)
 			if(modsuit.skin == potential_skin)
 				part.icon = modular_icon_files[modsuit.skin]
-				part.bodyshape_icon_files[BODYSHAPE_HUMANOID_T] = modular_worn_files[modsuit.skin]
+				if(length(part.bodyshape_icon_files))
+					part.bodyshape_icon_files[BODYSHAPE_HUMANOID_T] = modular_worn_files[modsuit.skin]
 				part.worn_icon = modular_worn_files[modsuit.skin]
 				modsuit.icon = modular_icon_files[modsuit.skin]
 				modsuit.worn_icon = modular_worn_files[modsuit.skin]
