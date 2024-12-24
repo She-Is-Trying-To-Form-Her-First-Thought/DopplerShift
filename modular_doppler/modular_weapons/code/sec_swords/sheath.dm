@@ -42,7 +42,7 @@
 /obj/item/storage/belt/secsword/examine(mob/user)
 	. = ..()
 	if(length(contents))
-		. += span_notice("<b>Left Click</b> to draw a stored baton, <b>Right Click</b> to draw a stored blade.")
+		. += span_notice("<b>Left Click</b> to draw a stored baton, <b>Right Click</b> to draw a stored blade while wearing.")
 
 /obj/item/storage/belt/secsword/attack_hand(mob/user, list/modifiers)
 	for(var/obj/item/melee/secblade/blade_runner in contents)
@@ -54,6 +54,8 @@
 	return ..()
 
 /obj/item/storage/belt/secsword/attack_hand_secondary(mob/user, list/modifiers)
+	if(!(slot & ITEM_SLOT_BELT))
+		return ..()
 	for(var/obj/item/melee/baton/doppler_security/simply_shocking in contents)
 		user.visible_message(span_notice("[user] draws [simply_shocking] from [src]."), span_notice("You draw [simply_shocking] from [src]."))
 		user.put_in_hands(simply_shocking)
@@ -73,8 +75,7 @@
 		if(istype(thing, /obj/item/melee/secblade))
 			has_sword = TRUE
 
-	icon_state = initial(inhand_icon_state)
-	inhand_icon_state = initial(inhand_icon_state)
+	icon_state = initial(icon_state)
 	worn_icon_state = initial(worn_icon_state)
 
 	var/next_appendage

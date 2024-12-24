@@ -20,8 +20,8 @@
 	force = 18
 	throwforce = 10
 	block_chance = 1 // Nah, I'd win
-	wound_bonus = -50
-	bare_wound_bonus = 10
+	wound_bonus = 0
+	bare_wound_bonus = 20
 
 	attack_verb_continuous = list("attacks", "slashes", "slices", "tears", "lacerates", "rips", "dices", "rends")
 	attack_verb_simple = list("attack", "slash", "slice", "tear", "lacerate", "rip", "dice", "rend")
