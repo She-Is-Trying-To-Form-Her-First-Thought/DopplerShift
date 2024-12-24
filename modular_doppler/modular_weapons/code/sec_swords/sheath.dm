@@ -63,7 +63,7 @@
 		user.put_in_hands(simply_shocking)
 		playsound(user, 'sound/items/sheath.ogg', 50, TRUE)
 		update_appearance()
-		return
+		return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
 	return ..()
 
 /obj/item/storage/belt/secsword/update_icon_state()
