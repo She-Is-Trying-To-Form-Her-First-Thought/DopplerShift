@@ -45,6 +45,8 @@
 		. += span_notice("<b>Left Click</b> to draw a stored baton, <b>Right Click</b> to draw a stored blade while wearing.")
 
 /obj/item/storage/belt/secsword/attack_hand(mob/user, list/modifiers)
+	if(!(user.get_slot_by_item(src) & ITEM_SLOT_BELT))
+		return ..()
 	for(var/obj/item/melee/secblade/blade_runner in contents)
 		user.visible_message(span_notice("[user] draws [blade_runner] from [src]."), span_notice("You draw [blade_runner] from [src]."))
 		user.put_in_hands(blade_runner)
