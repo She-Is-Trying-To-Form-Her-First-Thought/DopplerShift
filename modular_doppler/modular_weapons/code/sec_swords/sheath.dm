@@ -46,7 +46,7 @@
 
 /obj/item/storage/belt/secsword/attack_hand(mob/user, list/modifiers)
 	for(var/obj/item/melee/secblade/blade_runner in contents)
-		user.visible_message(span_notice("[user] draws [blade_runner] from [src].", span_notice("You draw [blade_runner] from [src].")))
+		user.visible_message(span_notice("[user] draws [blade_runner] from [src]."), span_notice("You draw [blade_runner] from [src]."))
 		user.put_in_hands(blade_runner)
 		playsound(user, 'sound/items/sheath.ogg', 50, TRUE)
 		update_appearance()
@@ -55,7 +55,7 @@
 
 /obj/item/storage/belt/secsword/attack_hand_secondary(mob/user, list/modifiers)
 	for(var/obj/item/melee/baton/doppler_security/simply_shocking in contents)
-		user.visible_message(span_notice("[user] draws [simply_shocking] from [src].", span_notice("You draw [simply_shocking] from [src].")))
+		user.visible_message(span_notice("[user] draws [simply_shocking] from [src]."), span_notice("You draw [simply_shocking] from [src]."))
 		user.put_in_hands(simply_shocking)
 		playsound(user, 'sound/items/sheath.ogg', 50, TRUE)
 		update_appearance()

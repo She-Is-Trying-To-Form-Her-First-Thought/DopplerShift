@@ -134,7 +134,7 @@
 	target.set_stutter_if_lower(16 SECONDS)
 	if(iscarbon(target))
 		var/mob/living/carbon/big_shocker = target
-		big_Shocker.electrocute_act(10, src, 1, jitter_time = 0 SECONDS, stutter_time = 0 SECONDS, stun_duration = 0 SECONDS)
+		big_shocker.electrocute_act(10, src, 1, jitter_time = 0 SECONDS, stutter_time = 0 SECONDS, stun_duration = 0 SECONDS)
 	else
 		target.electrocute_act(10, src, 1)
 	SEND_SIGNAL(target, COMSIG_LIVING_MINOR_SHOCK)
