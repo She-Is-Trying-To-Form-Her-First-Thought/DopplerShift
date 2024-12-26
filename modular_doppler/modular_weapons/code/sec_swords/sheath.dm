@@ -42,7 +42,7 @@
 /obj/item/storage/belt/secsword/examine(mob/user)
 	. = ..()
 	if(length(contents))
-		. += span_notice("<b>Left Click</b> to draw a stored baton, <b>Right Click</b> to draw a stored blade while wearing.")
+		. += span_notice("<b>Left Click</b> to draw a stored blade, <b>Right Click</b> to draw a stored baton while wearing.")
 
 /obj/item/storage/belt/secsword/attack_hand(mob/user, list/modifiers)
 	if(!(user.get_slot_by_item(src) & ITEM_SLOT_BELT))
