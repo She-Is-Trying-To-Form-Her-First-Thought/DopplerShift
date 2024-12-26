@@ -16,6 +16,7 @@
 	obj_flags = CONDUCTS_ELECTRICITY
 	sharpness = SHARP_EDGED
 	w_class = WEIGHT_CLASS_BULKY
+	obj_flags = UNIQUE_RENAME
 
 	force = 18
 	throwforce = 10

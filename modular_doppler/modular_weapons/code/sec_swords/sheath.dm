@@ -9,6 +9,7 @@
 	worn_icon_state = "swordcase"
 	w_class = WEIGHT_CLASS_BULKY
 	interaction_flags_click = parent_type::interaction_flags_click | NEED_DEXTERITY | NEED_HANDS
+	obj_flags = UNIQUE_RENAME
 
 /obj/item/storage/belt/secsword/Initialize(mapload)
 	. = ..()
