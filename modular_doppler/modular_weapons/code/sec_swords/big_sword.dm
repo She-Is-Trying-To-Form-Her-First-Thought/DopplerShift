@@ -36,3 +36,14 @@
 	alt_continuous = string_list(alt_continuous)
 	alt_simple = string_list(alt_simple)
 	AddComponent(/datum/component/alternative_sharpness, SHARP_POINTY, alt_continuous, alt_simple, -5)
+
+/obj/item/melee/secblade/training
+	name = "training shortblade"
+	desc = "A utilitarian weapon, handle and blade, with little more. \
+		This one doesn't seem completely real, incapable of bloodshed but likely still hurts quite a lot."
+
+	icon_state = "training_sword"
+
+	damtype = STAMINA
+	wound_bonus = -50
+	bare_wound_bonus = -50

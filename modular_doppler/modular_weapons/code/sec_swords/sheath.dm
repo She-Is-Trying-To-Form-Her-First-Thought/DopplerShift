@@ -101,3 +101,9 @@
 	new /obj/item/reagent_containers/spray/pepper(src)
 	new /obj/item/assembly/flash/handheld(src)
 	update_appearance()
+
+/obj/item/storage/belt/secsword/training/PopulateContents()
+	new /obj/item/melee/secblade/training(src) // No way attack on titan
+	new /obj/item/melee/secblade/training(src)
+	new /obj/item/melee/baton/doppler_security/loaded(src)
+	update_appearance()
