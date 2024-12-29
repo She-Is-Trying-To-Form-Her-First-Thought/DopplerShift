@@ -6,7 +6,10 @@
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 8
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "c" = (
 /obj/effect/turf_decal/tile/dark/half{
@@ -15,7 +18,9 @@
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 8
 	},
-/turf/open/floor/iron/smooth_half{
+/turf/open/floor/holofloor{
+	base_icon_state = "smooth_half";
+	icon_state = "smooth_half";
 	dir = 1
 	},
 /area/template_noop)
@@ -23,19 +28,35 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
+/turf/open/floor/holofloor{
+	base_icon_state = "smooth";
+	icon_state = "smooth";
+	dir = 1
+	},
 /area/template_noop)
 "e" = (
 /obj/structure/chair{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth_half{
+/turf/open/floor/holofloor{
+	base_icon_state = "smooth_half";
+	icon_state = "smooth_half";
 	dir = 1
+	},
+/area/template_noop)
+"f" = (
+/obj/effect/turf_decal/arrows/white,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
 	},
 /area/template_noop)
 "h" = (
 /obj/effect/turf_decal/bot_white/left,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "k" = (
 /obj/effect/turf_decal/tile/dark/half{
@@ -44,13 +65,18 @@
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "l" = (
 /obj/effect/turf_decal/trimline/neutral/warning{
 	dir = 5
 	},
-/turf/open/floor/iron/smooth_half{
+/turf/open/floor/holofloor{
+	base_icon_state = "smooth_half";
+	icon_state = "smooth_half";
 	dir = 1
 	},
 /area/template_noop)
@@ -58,18 +84,26 @@
 /obj/effect/turf_decal/trimline/neutral/warning{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth_half{
+/turf/open/floor/holofloor{
+	base_icon_state = "smooth_half";
+	icon_state = "smooth_half";
 	dir = 1
 	},
 /area/template_noop)
 "n" = (
-/turf/open/floor/iron/smooth,
+/turf/open/floor/holofloor{
+	base_icon_state = "smooth";
+	icon_state = "smooth";
+	dir = 1
+	},
 /area/template_noop)
 "o" = (
 /obj/effect/turf_decal/trimline/neutral/warning{
 	dir = 6
 	},
-/turf/open/floor/iron/smooth_half{
+/turf/open/floor/holofloor{
+	base_icon_state = "smooth_half";
+	icon_state = "smooth_half";
 	dir = 1
 	},
 /area/template_noop)
@@ -80,11 +114,17 @@
 	pixel_y = 4
 	},
 /obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "r" = (
 /obj/effect/turf_decal/tile/neutral/full,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "v" = (
 /obj/effect/turf_decal/trimline/neutral/warning{
@@ -92,15 +132,26 @@
 	},
 /obj/machinery/shower/directional/east,
 /obj/structure/fluff/shower_drain,
-/turf/open/floor/iron/smooth_half{
+/turf/open/floor/holofloor{
+	base_icon_state = "smooth_half";
+	icon_state = "smooth_half";
 	dir = 1
 	},
 /area/template_noop)
 "w" = (
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "x" = (
-/turf/open/floor/catwalk_floor/iron_smooth,
+/obj/effect/turf_decal/arrows/white{
+	dir = 1
+	},
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "y" = (
 /obj/structure/rack,
@@ -122,17 +173,25 @@
 	dir = 5
 	},
 /obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "B" = (
-/turf/open/floor/iron/smooth_half{
+/turf/open/floor/holofloor{
+	base_icon_state = "smooth_half";
+	icon_state = "smooth_half";
 	dir = 1
 	},
 /area/template_noop)
 "C" = (
 /obj/effect/turf_decal/delivery/white,
 /obj/item/kirbyplants/random/fullysynthetic,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "D" = (
 /obj/structure/railing{
@@ -141,13 +200,18 @@
 /obj/structure/rack,
 /obj/item/storage/medkit/frontier,
 /obj/item/storage/box/bandages,
-/turf/open/floor/catwalk_floor/iron_smooth,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "F" = (
 /obj/effect/turf_decal/caution/white{
 	dir = 8
 	},
-/turf/open/floor/iron/smooth_half{
+/turf/open/floor/holofloor{
+	base_icon_state = "smooth_half";
+	icon_state = "smooth_half";
 	dir = 1
 	},
 /area/template_noop)
@@ -155,11 +219,17 @@
 /obj/effect/turf_decal/loading_area/white{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "L" = (
 /obj/effect/turf_decal/bot_white/right,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "M" = (
 /obj/structure/railing{
@@ -167,7 +237,10 @@
 	},
 /obj/effect/turf_decal/delivery/white,
 /obj/item/kirbyplants/random/fullysynthetic,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "P" = (
 /obj/structure/rack,
@@ -189,12 +262,18 @@
 	dir = 6
 	},
 /obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "Q" = (
 /obj/effect/turf_decal/delivery/white,
 /obj/structure/reagent_dispensers/water_cooler,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "R" = (
 /obj/structure/railing{
@@ -202,7 +281,10 @@
 	},
 /obj/effect/turf_decal/delivery/white,
 /obj/structure/closet/boxinggloves,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "W" = (
 /obj/effect/turf_decal/trimline/neutral/warning{
@@ -210,7 +292,9 @@
 	},
 /obj/machinery/shower/directional/east,
 /obj/structure/fluff/shower_drain,
-/turf/open/floor/iron/smooth_half{
+/turf/open/floor/holofloor{
+	base_icon_state = "smooth_half";
+	icon_state = "smooth_half";
 	dir = 1
 	},
 /area/template_noop)
@@ -222,7 +306,10 @@
 /obj/item/clothing/mask/whistle{
 	pixel_y = 7
 	},
-/turf/open/floor/catwalk_floor/iron_smooth,
+/turf/open/floor/holofloor{
+	icon_state = "smooth_large";
+	base_icon_state = "smooth_large"
+	},
 /area/template_noop)
 "Y" = (
 /obj/effect/turf_decal/tile/dark/half{
@@ -231,7 +318,9 @@
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth_half{
+/turf/open/floor/holofloor{
+	base_icon_state = "smooth_half";
+	icon_state = "smooth_half";
 	dir = 1
 	},
 /area/template_noop)
@@ -250,13 +339,13 @@ C
 "}
 (2,1,1) = {"
 q
-x
-x
-n
-x
+f
 x
 n
+f
 x
+n
+f
 x
 q
 "}
@@ -298,13 +387,13 @@ k
 "}
 (6,1,1) = {"
 n
-x
-x
-n
-x
+f
 x
 n
+f
 x
+n
+f
 x
 n
 "}
@@ -322,13 +411,13 @@ h
 "}
 (8,1,1) = {"
 n
-x
-x
-n
-x
+f
 x
 n
+f
 x
+n
+f
 x
 n
 "}
