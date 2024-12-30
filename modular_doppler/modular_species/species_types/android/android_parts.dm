@@ -40,6 +40,10 @@
 	// var for monitor heads and their emissive states
 	var/monitor_state
 
+/obj/item/bodypart/head/robot/android/Initialize(mapload)
+	. = ..()
+	name = "[GLOB.frame_type_names[limb_id]] [parse_zone(body_zone)]"
+
 /obj/item/bodypart/head/robot/android/get_limb_icon(dropped)
 	. = ..()
 	// emissive handling
@@ -65,6 +69,10 @@
 /obj/item/bodypart/chest/robot/android
 	biological_state = (BIO_ROBOTIC|BIO_BLOODED)
 
+/obj/item/bodypart/chest/robot/android/Initialize(mapload)
+	. = ..()
+	name = "[GLOB.frame_type_names[limb_id]] [parse_zone(body_zone)]"
+
 /obj/item/bodypart/chest/robot/android/welder_act_secondary(mob/living/user, obj/item/tool)
 	. = ..()
 	return change_type(user, tool)
@@ -80,6 +88,10 @@
 /obj/item/bodypart/arm/right/robot/android
 	biological_state = (BIO_ROBOTIC|BIO_BLOODED)
 
+/obj/item/bodypart/arm/right/robot/android/Initialize(mapload)
+	. = ..()
+	name = "[GLOB.frame_type_names[limb_id]] [parse_zone(body_zone)]"
+
 /obj/item/bodypart/arm/right/robot/android/welder_act_secondary(mob/living/user, obj/item/tool)
 	. = ..()
 	return change_type(user, tool)
@@ -91,6 +103,10 @@
 // left arm
 /obj/item/bodypart/arm/left/robot/android
 	biological_state = (BIO_ROBOTIC|BIO_BLOODED)
+
+/obj/item/bodypart/arm/left/robot/android/Initialize(mapload)
+	. = ..()
+	name = "[GLOB.frame_type_names[limb_id]] [parse_zone(body_zone)]"
 
 /obj/item/bodypart/arm/left/robot/android/welder_act_secondary(mob/living/user, obj/item/tool)
 	. = ..()
@@ -104,6 +120,10 @@
 /obj/item/bodypart/leg/right/robot/android
 	biological_state = (BIO_ROBOTIC|BIO_BLOODED)
 
+/obj/item/bodypart/leg/right/robot/android/Initialize(mapload)
+	. = ..()
+	name = "[GLOB.frame_type_names[limb_id]] [parse_zone(body_zone)]"
+
 /obj/item/bodypart/leg/right/robot/android/welder_act_secondary(mob/living/user, obj/item/tool)
 	. = ..()
 	return change_type(user, tool)
@@ -115,6 +135,10 @@
 // left leg
 /obj/item/bodypart/leg/left/robot/android
 	biological_state = (BIO_ROBOTIC|BIO_BLOODED)
+
+/obj/item/bodypart/leg/left/robot/android/Initialize(mapload)
+	. = ..()
+	name = "[GLOB.frame_type_names[limb_id]] [parse_zone(body_zone)]"
 
 /obj/item/bodypart/leg/left/robot/android/welder_act_secondary(mob/living/user, obj/item/tool)
 	. = ..()
