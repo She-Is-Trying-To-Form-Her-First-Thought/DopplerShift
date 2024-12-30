@@ -928,6 +928,31 @@
 	icon_state = "zhenkovdark_r_leg"
 	limb_id = "zhenkovdark"
 
+///
+// shard alpha raptor legs
+///
+/obj/item/bodypart/leg/right/robot/android/shard_alpha
+	should_draw_greyscale = FALSE
+	icon_static = ANDROID_BODYPARTS_DMI
+	icon = ANDROID_BODYPARTS_DMI
+	icon_greyscale = ANDROID_BODYPARTS_DMI
+	icon_state = "shard_alpha_r_leg"
+	limb_id = "shard_alpha"
+	footstep_type = FOOTSTEP_MOB_CLAW
+	footprint_sprite = FOOTPRINT_SPRITE_CLAWS
+	bodyshape = BODYSHAPE_HUMANOID | BODYSHAPE_DIGITIGRADE
+
+/obj/item/bodypart/leg/left/robot/android/shard_alpha
+	should_draw_greyscale = FALSE
+	icon_static = ANDROID_BODYPARTS_DMI
+	icon = ANDROID_BODYPARTS_DMI
+	icon_greyscale = ANDROID_BODYPARTS_DMI
+	icon_state = "shard_alpha_r_leg"
+	limb_id = "shard_alpha"
+	footstep_type = FOOTSTEP_MOB_CLAW
+	footprint_sprite = FOOTPRINT_SPRITE_CLAWS
+	bodyshape = BODYSHAPE_HUMANOID | BODYSHAPE_DIGITIGRADE
+
 #undef HEAD_MONITOR_FACE
 #undef ANDROID_BODYPARTS_DMI
 
