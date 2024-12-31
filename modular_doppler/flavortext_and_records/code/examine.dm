@@ -170,7 +170,7 @@
 
 		var/full_examine = compile_examined_text(short_desc, extended_desc, headshot_url, ooc_notes)
 
-		to_chat(viewer, examine_block(span_info(full_examine)))
+		to_chat(viewer, boxed_message(span_info(full_examine)))
 		return
 	else if (href_list["species_info"])
 		var/mob/viewer = usr
@@ -180,5 +180,5 @@
 
 		var/full_examine = compile_species_info_text(model_name, model_desc, TRUE)
 
-		to_chat(viewer, examine_block(span_info(full_examine)))
+		to_chat(viewer, boxed_message(span_info(full_examine)))
 		return
