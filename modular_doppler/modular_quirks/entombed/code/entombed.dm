@@ -33,6 +33,11 @@
 		"moonlight" = 'modular_doppler/special_modsuits/icons/mod_worn.dmi',
 		"orbiter" = 'modular_doppler/special_modsuits/icons/mod_worn.dmi',
 	)
+	/// Alternative icon files for each modular skin with a digi variant
+	var/list/modular_worn_digi_files = list(
+		"moonlight" = 'modular_doppler/special_modsuits/icons/mod_worn_digi.dmi',
+		"orbiter" = 'modular_doppler/special_modsuits/icons/mod_worn_digi.dmi',
+	)
 
 /datum/quirk/equipping/entombed/process(seconds_per_tick)
 	var/mob/living/carbon/human/human_holder = quirk_holder
@@ -120,6 +125,11 @@
 				part.icon = modular_icon_files[modsuit.skin]
 				if(length(part.bodyshape_icon_files))
 					part.bodyshape_icon_files[BODYSHAPE_HUMANOID_T] = modular_worn_files[modsuit.skin]
+					if(modsuit.skin in modular_worn_digi_files)
+						if(istype(part, /obj/item/clothing/head/mod))
+							part.bodyshape_icon_files[BODYSHAPE_SNOUTED_T] = modular_worn_digi_files[modsuit.skin]
+						else
+							part.bodyshape_icon_files[BODYSHAPE_DIGITIGRADE_T] = modular_worn_digi_files[modsuit.skin]
 				part.worn_icon = modular_worn_files[modsuit.skin]
 				modsuit.icon = modular_icon_files[modsuit.skin]
 				modsuit.worn_icon = modular_worn_files[modsuit.skin]
