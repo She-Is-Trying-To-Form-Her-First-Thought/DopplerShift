@@ -93,10 +93,10 @@
 		return
 	if(core_energy > 0)
 		core_energy -= ENERGY_DRAIN_AMT
-		owner.remove_movespeed_modifier(/datum/movespeed_modifier/android_nocharge)
+		target.remove_movespeed_modifier(/datum/movespeed_modifier/android_nocharge)
 	// Once out of power, you begin to move terribly slowly
 	if(core_energy <= 0)
-		owner.add_movespeed_modifier(/datum/movespeed_modifier/android_nocharge)
+		target.add_movespeed_modifier(/datum/movespeed_modifier/android_nocharge)
 
 /datum/species/android/proc/handle_hud(mob/living/carbon/human/target)
 	// update it
